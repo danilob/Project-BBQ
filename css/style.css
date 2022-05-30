@@ -17,6 +17,7 @@ body{
 h1 {
   font-size: 2.25rem;
   font-weight: 300;
+  color: #fff;
 }
 
 /*seleciona o p logo após o h1*/
@@ -51,4 +52,13 @@ strong {
 .fine-print{
    font-size: 0.625rem;
    letter-spacing: 1px;
+}
+
+
+/* Intro Section  */
+
+.intro{
+  background-color: var(--color-dark);
+  background-image: url(../images/dark-ribs.jpg);
+  padding: 0 0.25em 1em;
 }
