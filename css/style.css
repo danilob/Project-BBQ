@@ -19,6 +19,13 @@ h1 {
   font-weight: 300;
 }
 
+/*seleciona o p logo após o h1*/
+h1 + p {
+  color: var(--color-orange);
+  font-weight: 900;
+  font-size: 1.3125rem;
+}
+
 h2 {
    font-size: 1.3125rem;
 }
