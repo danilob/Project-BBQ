@@ -64,6 +64,8 @@ strong {
 .intro{
   background-color: var(--color-dark);
   background-image: url(../images/dark-ribs.jpg);
+  background-size: cover;
+  background-position: center;
   padding: 0 0.5em 2em;
   display: flex;
   flex-direction: column;
