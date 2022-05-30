@@ -1,4 +1,19 @@
-html, body {
-  height: 100%;
-  width: 100%;
+:root{
+  --color-dark: #404040;
+  --color-orange: #F18119;
+  --color-light-orange: #FFA51D;
+  --color-dark-orange: #FF7138;
+}
+
+
+body{
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1rem;
+  color: var(--color-dark);
+}
+
+h1 {
+  font-size: 2.25rem;
+  font-weight: 300;
 }
