@@ -30,6 +30,20 @@ h2 {
    font-size: 1.3125rem;
 }
 
+h2 + p {
+   color: var(--color-orange);
+   font: weight; 900;
+   font-size: 1rem;
+   text-transform: uppercase;
+}
+
 strong {
    font-weight: 900;
+}
+
+.top-text{
+   font-size: 0.625rem;
+   font-weight: 900;
+   color: var(--color-orange); 
+   text-transform: uppercase;
 }
