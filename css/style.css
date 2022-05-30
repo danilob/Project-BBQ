@@ -11,9 +11,18 @@ body{
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 1rem;
   color: var(--color-dark);
+  text-align: center;
 }
 
 h1 {
   font-size: 2.25rem;
   font-weight: 300;
+}
+
+h2 {
+   font-size: 1.3125rem;
+}
+
+strong {
+   font-weight: 900;
 }
