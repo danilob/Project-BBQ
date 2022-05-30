@@ -18,6 +18,7 @@ h1 {
   font-size: 2.25rem;
   font-weight: 300;
   color: #fff;
+  margin: 2em 0;
 }
 
 /*seleciona o p logo após o h1*/
@@ -25,6 +26,7 @@ h1 + p {
   color: var(--color-orange);
   font-weight: 900;
   font-size: 1.3125rem;
+  margin: 0;
 }
 
 h2 {
@@ -47,6 +49,7 @@ strong {
    font-weight: 900;
    color: var(--color-orange); 
    text-transform: uppercase;
+   order: -99;
 }
 
 .fine-print{
@@ -61,4 +64,6 @@ strong {
   background-color: var(--color-dark);
   background-image: url(../images/dark-ribs.jpg);
   padding: 0 0.25em 1em;
+  display: flex;
+  flex-direction: column;
 }
