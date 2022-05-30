@@ -47,3 +47,8 @@ strong {
    color: var(--color-orange); 
    text-transform: uppercase;
 }
+
+.fine-print{
+   font-size: 0.625rem;
+   letter-spacing: 1px;
+}
