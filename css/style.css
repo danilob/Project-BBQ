@@ -65,6 +65,17 @@ strong {
    letter-spacing: 1px;
 }
 
+/* Form */
+.email-collector {
+    width: 80%;
+    max-width: 300px;
+}
+
+input,
+.btn {
+    width: 100%;
+}
+
 
 /* Intro Section  */
 
