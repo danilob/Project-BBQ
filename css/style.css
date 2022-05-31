@@ -5,6 +5,11 @@
   --color-dark-orange: #FF7138;
 }
 
+*{
+/*   padrão content-box */
+  box-sizing: border-box;
+/*   leva em conta todo o conteudo de padding, margin e border na largura do elemento */
+}
 
 body{
   margin: 0;
@@ -27,7 +32,9 @@ h1 + p {
   font-weight: 900;
   font-size: 1.3125rem;
   margin: 0;
+  text-transform: uppercase;
 }
+
 
 h2 {
    font-size: 1.3125rem;
@@ -86,7 +93,7 @@ strong {
       font-size: 1.125rem;
    }
    h1{
-      font-size: 3.5 rem;
+      font-size: 3.5rem;
    }
    h2,
    h1 + p{
@@ -98,7 +105,15 @@ strong {
       align-items: center;
    }
 
-   .intro,.main-content{
+   .intro,
+   .main-content{
       width: 50%;
+      min-height: 100vh;
    }
+
+  .main-content {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+  }
 }
