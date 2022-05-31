@@ -76,6 +76,8 @@ strong {
   padding: 0 0.5em 2em;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  min: height; 50vh;
 }
 
 
@@ -83,6 +85,14 @@ strong {
 
 .main-content {
     padding: 2em 1em;
+}
+
+/* seleciona somente os filhos diretos */
+.intro > *,
+.main-content > * {
+   max-width: 400px;
+   margin-left: auto;
+   margin-right: auto;
 }
 
 
